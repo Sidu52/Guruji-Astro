@@ -12,7 +12,7 @@ This project is a RESTful API for a Todo App built using Node.js, Express, and M
 
 1. Clone the repository:
 
-```bash
+
 git clone <repository-url>
 
 ## Install the dependencies
