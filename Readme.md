@@ -12,7 +12,11 @@ This project is a RESTful API for a Todo App built using Node.js, Express, and M
 
 1. Clone the repository:
 
+<<<<<<< HEAD
 ```bash
+=======
+
+>>>>>>> f40099ec7cf2a69950823f8a47018e3ecbd591ea
 git clone <repository-url>
 
 ## Install the dependencies
@@ -28,8 +32,14 @@ Add the following variables:
 PORT=<port-number>
 MONGODB_URI=<mongodb-connection-string>
 JWT_SECRET=<jwt-secret-key>
+<<<<<<< HEAD
 Mongoose_Cluster_Name=<Mongoose_cluster_name>
 Mongoose_PASSWORD= <Mongoose_Password>
+=======
+Mongoose_Cluster_Name=<Mongoose_Cluster_Name>
+Mongoose_PASSWORD=<Password>
+
+>>>>>>> f40099ec7cf2a69950823f8a47018e3ecbd591ea
 ## Start the server:
 npm start
 
