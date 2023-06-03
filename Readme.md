@@ -28,6 +28,8 @@ Add the following variables:
 PORT=<port-number>
 MONGODB_URI=<mongodb-connection-string>
 JWT_SECRET=<jwt-secret-key>
+Mongoose_Cluster_Name=<Mongoose_Cluster_Name>
+Mongoose_PASSWORD=<Password>
 
 ## Start the server:
 npm start
