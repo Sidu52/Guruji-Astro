@@ -1,7 +1,8 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
 // const url = "mongodb://127.0.0.1:27017/gurutodos"; // For Local Server
-const url = `mongodb+srv://${process.env.Mongoose_Cluster_Name}:${process.env.Mongoose_PASSWORD}@cluster0.fca4n63.mongodb.net/gurutodos`;
+const url = `mongodb+srv://Sidhu:Sidu&7879@cluster0.fca4n63.mongodb.net/gurutodos`;
+// const url = `mongodb+srv://${process.env.Mongoose_Cluster_Name}:${process.env.Mongoose_PASSWORD}@cluster0.fca4n63.mongodb.net/gurutodos`;
 
 mongoose.connect(url);
 const db = mongoose.connection;
